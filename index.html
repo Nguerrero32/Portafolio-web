@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="propietario" content="Nayeli Guadalupe Guerrero Tapia">
+    <meta name="descripcion" content="Portafolio personal de Nayeli Guerrero, estudiante de Entornos Virtuales y Negocios Digitales. Especialista en modelado 3D, 2D, diseño digital y desarrollo web con HTML, CSS y Bootstrap.">
+    <meta name="keywords" content="portafolio, Entornos Virtuales, Negocios Digitales, Modelado 3D, Modelado 2D, Photoshop, Desarrollo Web, Bootstrap">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="iconos/favicon.ico" type="image/x-icon">
+    
+    <title>Portafolio</title>
+
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark py-0 fixed-top shadow">
+        <nav class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="image/Logo.png" alt="Logo" class="d-inline-block align-text-middle logotipo"> Portafolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                    <a class="nav-link" href="#quien">Acerca de</a>
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-----------------------------------------------Perfil------------------------------------------------------------------------------->
+    
+    <section id="inicio" class="container py-5">
+        <div class="row align-items-center">
+            <figure class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 mb-4 mb-lg-0">
+                <img src="image/Perfil.png" alt="imagen_Avatar" class="img-fluid border-start border-end border-2 rounded">
+            </figure>
+            <article class="col-lg-6 col-md-10 offset-md-1 offset-lg-0 text-center text-lg-end pt-lg-5">
+                <h2 class="display-4 fw-bold text-lg-start mb-3">Nayeli Guerrero</h2>
+                <p id="parrafo" class="collapse d-lg-block text-start">Diseñadora y creadora digital en modelado 3D y 2D, edición fotográfica y diseño visual. Transformo ideas en experiencias visuales únicas.</p>
+                <div class="text-start text-lg-end">
+                    <a class="btn btn-primary d-lg-none mt-2" data-bs-toggle="collapse" href="#parrafo" role="button" aria-expanded="false" aria-controls="parrafo">
+                        Leer más...
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+<!---------------------------------------------------Acerca de mi------------------------------------------------------------------------------->
+    <section id="quien" class="container py-5">
+        <div class="row justify-content-center align-items-center">
+            
+            <article class="col-lg-8 col-md-10 text-center pt-lg-5">
+                <h2 class="display-4 fw-bold text-center mb-3" style="color: #706d55;">Acerca de mi</h2>
+                <p id="parrafo" class="collapse d-lg-block text-center">
+                    Soy Nayeli Guadalupe Guerrero Tapia, tengo 19 años y estudio en la carrera de Entornos Virtuales y Negocios Digitales, me gusta el diseño y la creación del diseño digital como también la funcionalidad del modelado 2D y 3D. Mi objetivo es seguir aprendiendo, experimentando con nuevas tecnologías y aportar soluciones creativas e innovadoras en cada proyecto en el que participo.
+                </p>
+                <div class="text-center">
+                    <a class="btn btn-primary d-lg-none mt-2" data-bs-toggle="collapse" href="#parrafo" role="button" aria-expanded="false" aria-controls="parrafo">
+                        Leer más...
+                    </a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+<!----------------------------------------------Proyectos------------------------------------------------------------------------------>
+    <section class="contenedor" id="proyectos">
+        <h1 class="display-4 fw-bold text-center my-4">Mis Proyectos</h1>
+        <div class="row g-3 justify-content-center">
+    
+            <article class="col-10 offset-1 col-md-6 offset-md-0 col-lg-3 mb-3 mb-lg-0">
+                <div class="card h-100">
+                    <img src="image/Modelado3D.png" class="card-img-top " alt="Modelado 3D">
+                    <div class="card-body">
+                        <h2 class="card-title">Modelado 3D</h2>
+               <!-----  <p class="card-text d-none d-lg-block text-center">Creación de escenarios y objetos tridimensionales con atención al detalle en texturas, volúmenes y composición. Proyectos enfocados en entornos virtuales funcionales y estéticos.</p> ----->
+                        <a href="modelado-3d.html" class="btn btn-primary">Ver proyecto...</a>
+                    </div>
+
+                    
+                </div>
+            </article>
+
+            <article class="col-10 offset-1 col-md-6 offset-md-0 col-lg-3 mb-3 mb-lg-0">
+                <div class="card h-100">
+                    <img src="image/Clonación.png" class="card-img-top " alt="Photoshop">
+                    <div class="card-body">
+                        <h2 class="card-title">Photoshop</h2>
+               <!-----  <p class="card-text d-none d-lg-block text-center">Creación de escenarios y objetos tridimensionales con atención al detalle en texturas, volúmenes y composición. Proyectos enfocados en entornos virtuales funcionales y estéticos.</p> ----->
+                        <a href="photoshop.html" class="btn btn-primary">Ver proyecto...</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-10 offset-1 col-md-6 offset-md-0 col-lg-3 mb-3 mb-lg-0">
+                <div class="card h-100">
+                    <video src="medios/VID-20261003-WA0000.mp4" id="promo" controls poster="image/bosque.jpg" class="card-img-top " alt="Modelado 2D"></video>
+                    <div class="card-body">
+                        <h2 class="card-title">Modelado 2D</h2>
+               <!-----  <p class="card-text d-none d-lg-block text-center">Creación de escenarios y objetos tridimensionales con atención al detalle en texturas, volúmenes y composición. Proyectos enfocados en entornos virtuales funcionales y estéticos.</p> ----->
+                        <a href="modelado-2d.html" class="btn btn-primary">Ver proyecto...</a>
+                    </div>
+                </div>
+            </article> 
+            
+        </div>
+    </section>
+
+<!----------------------------------------------Pilares del Diseño Visual------------------------------------------------------------------------------>
+
+    <!-- Sección 2: Pilares del Diseño Visual (Carrusel con subtítulos) -->
+    <section id="pilares" class="container py-5">
+        <h1 class="text-center mb-4">Pilares del Diseño Visual</h1>
+        <p class="text-center mb-5 px-md-5">
+            Más allá del software utilizado, todo proyecto gráfico requiere bases sólidas de composición para comunicar un mensaje claro. Dominar el equilibrio entre los elementos visuales permite captar la atención del espectador y transmitir emociones de forma efectiva.
+        </p>
+
+        <div id="carouselPilares" class="carousel slide" data-bs-ride="carousel">
+            
+            <!-- Indicadores inferiores -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselPilares" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselPilares" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselPilares" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <!-- Diapositivas del carrusel -->
+            <div class="carousel-inner rounded shadow">
+            
+                <!-- Slide 1: Teoría del Color -->
+                <div class="carousel-item active">
+                    <img src="image/TeoriaColor.jpg" class="d-block w-100 img-carrusel" alt="Teoría del Color">
+                    <div class="carousel-caption d-none d-md-block fondo-subtitulo">
+                    <h5>Teoría del Color</h5>
+                    <p>Selección de paletas armónicas y contrastes adecuados para generar atmósferas e identidad visual.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 2: Composición y Encuadre -->
+                <div class="carousel-item">
+                    <img src="image/ComposicionEncuadre.jpg" class="d-block w-100 img-carrusel" alt="Composición y Encuadre">
+                    <div class="carousel-caption d-none d-md-block fondo-subtitulo">
+                    <h5>Composición y Encuadre</h5>
+                    <p>Distribución estratégica de los elementos en el espacio mediante reglas de proporción y jerarquía.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 3: Iluminación y Volumen -->
+                <div class="carousel-item">
+                    <img src="image/IluminacionVolumen.jpg" class="d-block w-100 img-carrusel" alt="Iluminación y Volumen">
+                    <div class="carousel-caption d-none d-md-block fondo-subtitulo">
+                    <h5>Iluminación y Volumen</h5>
+                    <p>Uso de luces, sombras y texturas para dar profundidad y realismo a cualquier pieza gráfica.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controles Anterior / Siguiente -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPilares" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPilares" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+
+        </div>
+    </section>
+
+    <footer class="container-fluid bg-black text-white text-center">
+        <p class="py-3 h5"> Copyright 2026 - Nayeli Guadalupe Guerrero Tapia</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js "></script>
+</body>
+
+</html>
